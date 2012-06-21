@@ -1,0 +1,419 @@
+# Translation of the WordPress plugin   by .
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/newsletter\n"
+"POT-Creation-Date: 2010-03-03 13:44+0000\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: export.php:7
+msgid "Newsletter Export"
+msgstr ""
+
+#: feed.php:6
+msgid "Newsletter feed by mail"
+msgstr ""
+
+#: import.php:38
+msgid "Newsletter Import"
+msgstr ""
+
+#: import.php:44
+msgid "Rows with errors"
+msgstr ""
+
+#: import.php:53
+msgid "CSV text with subscribers"
+msgstr ""
+
+#: import.php:57
+msgid "Import"
+msgstr ""
+
+#: main.php:18
+msgid "Newsletter Configuration"
+msgstr ""
+
+#: main.php:26
+msgid "General parameters"
+msgstr ""
+
+#: main.php:29
+msgid "Enable access to editors?"
+msgstr ""
+
+#: main.php:35
+msgid "Always show panels in english?"
+msgstr ""
+
+#: main.php:39
+msgid ""
+"The author does NOT mainatin translations, so if you have a doubt about some "
+"texts, disable the translations"
+msgstr ""
+
+#: main.php:43
+msgid "Logging"
+msgstr ""
+
+#: main.php:47
+msgid "Debug level saves user data on file system, use only to debug problems."
+msgstr ""
+
+#: main.php:52 newsletter.php:412 options.php:105 options.php:141
+#: options.php:174 options.php:226 options.php:272 options.php:288
+msgid "Save"
+msgstr ""
+
+#: manage.php:82
+msgid "Resend the subscription confirmation email?"
+msgstr ""
+
+#: manage.php:91
+msgid "Newsletter Subscribers"
+msgstr ""
+
+#: manage.php:104 manage.php:107
+msgid "Search"
+msgstr ""
+
+#: manage.php:109
+msgid ""
+"Press without filter to show all. Max 100 results will be shown. Use export "
+"panel to get all subscribers."
+msgstr ""
+
+#: manage.php:116
+msgid "Only not yet confirmed"
+msgstr ""
+
+#: manage.php:120
+msgid "Order"
+msgstr ""
+
+#: manage.php:162
+msgid "Remove all unconfirmed"
+msgstr ""
+
+#: manage.php:162
+msgid "Are your sure, really sure?"
+msgstr ""
+
+#: manage.php:168
+msgid "Subscriber's statistics"
+msgstr ""
+
+#: manage.php:169
+msgid "Confirmed subscriber"
+msgstr ""
+
+#: manage.php:171
+msgid "Unconfirmed subscriber"
+msgstr ""
+
+#: manage.php:173
+msgid "Results"
+msgstr ""
+
+#: manage.php:178
+msgid "Email"
+msgstr ""
+
+#: manage.php:178
+msgid "Name"
+msgstr ""
+
+#: manage.php:178
+msgid "Status"
+msgstr ""
+
+#: manage.php:178
+msgid "Actions"
+msgstr ""
+
+#: manage.php:178
+msgid "Profile"
+msgstr ""
+
+#: manage.php:186
+msgid "edit"
+msgstr ""
+
+#: manage.php:187
+msgid "remove"
+msgstr ""
+
+#: manage.php:188
+msgid "confirm"
+msgstr ""
+
+#: manage.php:189
+msgid "unconfirm"
+msgstr ""
+
+#: manage.php:190
+msgid "resend confirmation"
+msgstr ""
+
+#: newsletter.php:297
+msgid "Tags: <strong>{name}</strong> receiver name."
+msgstr ""
+
+#: newsletter.php:309
+msgid ""
+"Tags: <strong>{name}</strong> receiver name;\r\n"
+"<strong>{unsubscription_url}</strong> unsubscription URL;\r\n"
+"<strong>{token}</strong> the subscriber token."
+msgstr ""
+
+#: newsletter.php:397
+msgid ""
+"When you simulate a sending process, emails are really sent but all to this"
+"\r\n"
+"email address. That helps to test out problems with mail server."
+msgstr ""
+
+#: newsletter.php:406
+msgid ""
+"Force the return path to this email address. Return path is used from mail "
+"server to\r\n"
+"send back messages with delivery errors."
+msgstr ""
+
+#: options.php:35
+msgid "Newsletter Subscription and Unsubscription"
+msgstr ""
+
+#: options.php:42
+msgid "Sender and subscription page"
+msgstr ""
+
+#: options.php:44
+msgid "<p><strong>It's REQUIRED to complete such configuration.</strong></p>"
+msgstr ""
+
+#: options.php:48
+msgid "Sender email"
+msgstr ""
+
+#: options.php:52
+msgid ""
+"Newsletter sender email address: the address subscribers will see the "
+"newsletters coming from."
+msgstr ""
+
+#: options.php:56
+msgid "Sender name"
+msgstr ""
+
+#: options.php:60
+msgid ""
+"The name of the newsletter sender subscribers will see on incoming email."
+msgstr ""
+
+#: options.php:64
+msgid "Subscription page URL"
+msgstr ""
+
+#: options.php:68
+msgid ""
+"This is the page where you placed the <strong>[newsletter]</strong> short "
+"tag. (<a href=\"http://www.satollo.net/plugins/newsletter\">Read more on "
+"plugin official page</a>)"
+msgstr ""
+
+#: options.php:73
+msgid "Theme to use for emails"
+msgstr ""
+
+#: options.php:100
+msgid ""
+"Selected theme has to be one with {message} tag inside, tag that will be "
+"replaced with messages. Use the blank theme to send messages as you see them "
+"in the editor."
+msgstr ""
+
+#: options.php:111
+msgid "Subscription"
+msgstr ""
+
+#: options.php:116
+msgid "Do not ask the user name, only email."
+msgstr ""
+
+#: options.php:120
+msgid "Subscription form page"
+msgstr ""
+
+#: options.php:124
+msgid ""
+"This is the text showed to subscriber before the subscription form which is "
+"added automatically."
+msgstr ""
+
+#: options.php:128
+msgid "Successfully subscription page"
+msgstr ""
+
+#: options.php:132
+msgid ""
+"This is the text showed to a user who has pressed \"subscribe me\" on the "
+"previous\r\n"
+"step informing that an email to confirm subscription has just been sent. "
+"Remeber\r\n"
+"the user to check the spam folder and to follow the email instructions.<br />"
+"\r\n"
+"Tags: <strong>{name}</strong> the user name; <strong>{email}</strong> the "
+"user email."
+msgstr ""
+
+#: options.php:146
+msgid "Confirmation (double opt-in)"
+msgstr ""
+
+#: options.php:148
+msgid ""
+"<p>Email sent to the user to confirm his subscription, the successful "
+"confirmation\r\n"
+"page, the welcome email.</p>"
+msgstr ""
+
+#: options.php:155
+msgid ""
+"Do not use double opt-in. If checked the subscription is direct, so "
+"subscribers will be immediately confirmed and will receive the welcome email."
+msgstr ""
+
+#: options.php:161
+msgid "Confirmation email"
+msgstr ""
+
+#: options.php:165
+msgid ""
+"Tags: <strong>{name}</strong> the user name; <strong>"
+"{subscription_confirm_url}</strong>\r\n"
+"confirmation URL to be clicked by the user to confirm his subscription;\r\n"
+"<strong>{unsubscription_url}</strong> the unsubscription link"
+msgstr ""
+
+#: options.php:179 options.php:184
+msgid "Welcome message"
+msgstr ""
+
+#: options.php:180
+msgid ""
+"<p>Users jump directly to this step if you disabled the double opt-in step.</"
+"p>"
+msgstr ""
+
+#: options.php:188
+msgid ""
+"Showed when the user follow the confirmation URL sent to him with previous "
+"email\r\n"
+"settings or if signed up directly with no double opt-in process.\r\n"
+"<br />\r\n"
+"Tags: <strong>{name}</strong> the user name; <strong>{email}</strong> for the"
+"\r\n"
+"user email; <strong>{token}</strong> the subscriber unique token"
+msgstr ""
+
+#: options.php:197
+msgid "Conversion tracking code"
+msgstr ""
+
+#: options.php:201
+msgid "<strong>Works only with Newsletter Extras installed</strong>"
+msgstr ""
+
+#: options.php:203
+msgid ""
+"The code is injected AS-IS in welcome page and can be used to track "
+"conversion\r\n"
+"(you can use PHP if needed). Conversion code is usually supply by tracking "
+"services,\r\n"
+"like Google AdWords, Google Analytics and so on."
+msgstr ""
+
+#: options.php:212
+msgid ""
+"Welcome email<br /><small>The right place where to put bonus content link</"
+"small>"
+msgstr ""
+
+#: options.php:217
+msgid ""
+"Tags: <strong>{id}</strong> user id; <strong>{name}</strong> user name;\r\n"
+"<strong>{token}</strong> the subscriber unique token; <strong>"
+"{unsubscription_url}</strong>\r\n"
+"unsubscription link"
+msgstr ""
+
+#: options.php:231
+msgid "Unsubscription"
+msgstr ""
+
+#: options.php:232
+msgid ""
+"<p>A user starts the unsubscription process clicking the unsubscription link "
+"in\r\n"
+"a newsletter. This link contains the email to unsubscribe and some unique "
+"information\r\n"
+"to avoid hacking. The user are requird to confirm the unsubscription: this "
+"is the last\r\n"
+"step where YOU can communicate with you almost missed user.</p>"
+msgstr ""
+
+#: options.php:239
+msgid "Unsubscription message"
+msgstr ""
+
+#: options.php:243
+msgid ""
+"This text is show to users who click on a \"unsubscription link\" in a "
+"newsletter\r\n"
+"email. You have to insert a link in the text that user can follow to confirm "
+"the\r\n"
+"unsubscription request (see tags).\r\n"
+"<br />\r\n"
+"Tags: <strong>{name}</strong> user name; <strong>{email}</strong> user email;"
+"\r\n"
+"<strong>{unsubscription_confirm_url}</strong> URL to confirm unsubscription."
+msgstr ""
+
+#: options.php:254
+msgid "Goodbye message"
+msgstr ""
+
+#: options.php:262
+msgid "Goodbye email"
+msgstr ""
+
+#: options.php:266
+msgid "Tags: <strong>{name}</strong> user name."
+msgstr ""
+
+#: options.php:277
+msgid "Advanced"
+msgstr ""
+
+#: options.php:281
+msgid "Disable visual editors?"
+msgstr ""
+
+#: smtp.php:7
+msgid "Newsletter SMTP"
+msgstr ""
+
+#: statistics.php:7
+msgid "Newsletter Statistics"
+msgstr ""

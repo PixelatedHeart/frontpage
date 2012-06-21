@@ -1,0 +1,48 @@
+
+h3 {
+    margin-bottom: 0px;
+    margin-top: 30px;
+    font-family: Georgia;
+    font-size: 15px;
+}
+h4 {
+    font-size: 1.3em;
+    border-bottom: 1px solid #999;
+}
+.form-table {
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.form-table th {
+    text-align: right;
+    font-weight: bold;
+    border-right: 1px solid #ccc;
+}
+.form-table th small {
+    font-weight: normal;
+}
+
+p.submit {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.bordered-table {
+    border-collapse: collapse;
+}
+
+.bordered-table td, .bordered-table th {
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+
+table.clicks td {
+    border: 1px solid #666;
+    padding: 2px;
+    font-size: 10px;
+}
+
+table.clicks {
+    border-collapse: collapse;
+}
